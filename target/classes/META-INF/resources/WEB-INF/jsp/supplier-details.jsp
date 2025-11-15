@@ -7,8 +7,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Supplier Details - Garage Management</title>
-    <link rel="stylesheet" href="<c:url value='/css/style.css'/>">
-    <link rel="stylesheet" href="<c:url value='/css/module2.css'/>">
+    <link rel="stylesheet" href="<c:url value='/css/style.css'/>"/>
+    <link rel="stylesheet" href="<c:url value='/css/module2.css'/>"/>
+    <style>
+        /* Dark theme for supplier-details page */
+        body {
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+        }
+        
+        .container {
+            background: transparent;
+        }
+        
+        .info-card {
+            background: #1a1a1a;
+            border: 2px solid rgba(255, 255, 255, 0.15);
+        }
+        
+        .info-card h2 {
+            color: #ffffff;
+        }
+        
+        .info-row label {
+            color: #b0b0b0;
+        }
+        
+        .info-row span {
+            color: #ffffff;
+        }
+        
+        .highlight {
+            color: #ff6b6b;
+            font-weight: 700;
+        }
+        
+        .table-section {
+            background: #1a1a1a;
+            border: 2px solid rgba(255, 255, 255, 0.15);
+        }
+        
+        .section-header h3 {
+            color: #ffffff;
+        }
+        
+        .section-header p,
+        .section-header p strong {
+            color: #b0b0b0;
+        }
+        
+        .data-table thead {
+            background: #2a2a2a;
+            color: #ffffff;
+        }
+        
+        .data-table tbody tr {
+            background: #1a1a1a;
+        }
+        
+        .data-table tbody tr:hover {
+            background: #2a2a2a;
+        }
+        
+        .data-table td {
+            color: #ffffff;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .breadcrumb {
+            color: #b0b0b0;
+        }
+        
+        .breadcrumb a {
+            color: #ffffff;
+        }
+        
+        .breadcrumb .current {
+            color: #808080;
+        }
+    </style>
 </head>
 <body>
     <div class="container">

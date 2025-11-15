@@ -223,7 +223,7 @@
 <body>
     <div class="login-container">
         <div class="logo-container">
-            <div class="logo-icon">�</div>
+            <div class="logo-icon">🔧</div>
         </div>
         
         <div class="login-header">
@@ -240,7 +240,7 @@
             </div>
             
             <div class="login-option" data-type="staff" onclick="selectLoginType('staff')">
-                <div class="option-icon">�️</div>
+                <div class="option-icon">🔧</div>
                 <div class="option-title">Staff</div>
             </div>
         </div>

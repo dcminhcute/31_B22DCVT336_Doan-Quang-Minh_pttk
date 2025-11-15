@@ -7,8 +7,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Details - Garage Management</title>
-    <link rel="stylesheet" href="<c:url value='/css/style.css'/>">
-    <link rel="stylesheet" href="<c:url value='/css/module2.css'/>">
+    <link rel="stylesheet" href="<c:url value='/css/style.css'/>"/>
+    <link rel="stylesheet" href="<c:url value='/css/module2.css'/>"/>
+    <style>
+        /* Dark theme for order-details page */
+        body {
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+        }
+        
+        .container {
+            background: transparent;
+        }
+        
+        .info-card {
+            background: #1a1a1a;
+            border: 2px solid rgba(255, 255, 255, 0.15);
+        }
+        
+        .info-card h3 {
+            color: #ffffff;
+        }
+        
+        .info-content .info-item label {
+            color: #b0b0b0;
+        }
+        
+        .info-content .info-item span {
+            color: #ffffff;
+        }
+        
+        .parts-section {
+            background: #1a1a1a;
+            border: 2px solid rgba(255, 255, 255, 0.15);
+        }
+        
+        .parts-section h3 {
+            color: #ffffff;
+        }
+        
+        .data-table thead {
+            background: #2a2a2a;
+            color: #ffffff;
+        }
+        
+        .data-table tbody tr {
+            background: #1a1a1a;
+        }
+        
+        .data-table tbody tr:hover {
+            background: #2a2a2a;
+        }
+        
+        .data-table td {
+            color: #ffffff;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .data-table tfoot {
+            background: #2a2a2a;
+            color: #ffffff;
+        }
+        
+        .breadcrumb {
+            color: #b0b0b0;
+        }
+        
+        .breadcrumb a {
+            color: #ffffff;
+        }
+        
+        .breadcrumb .current {
+            color: #808080;
+        }
+        
+        .page-header h1 {
+            color: #ffffff;
+        }
+        
+        .page-header p {
+            color: #b0b0b0;
+        }
+        
+        /* Order header card text colors */
+        .order-header-card .summary-item label,
+        .order-header-card .summary-item span,
+        .order-header-card .highlight {
+            color: #ffffff !important;
+        }
+        
+        /* Remove badge background for status in red header */
+        .order-header-card .status-badge {
+            background: transparent !important;
+            border: none !important;
+            padding: 0 !important;
+            border-radius: 0 !important;
+            color: #ffffff !important;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
