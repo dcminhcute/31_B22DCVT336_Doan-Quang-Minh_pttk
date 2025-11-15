@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="<c:url value='/css/style.css'/>"/>
     <link rel="stylesheet" href="<c:url value='/css/module2.css'/>"/>
     <style>
-        /* Dark theme for supplier-details page */
         body {
             background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
         }
@@ -83,6 +82,35 @@
         
         .breadcrumb .current {
             color: #808080;
+        }
+        
+        .table-container {
+            overflow-x: auto;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .data-table th,
+        .data-table td {
+            padding: 1rem;
+            text-align: left;
+        }
+        
+        .data-table th:nth-child(4),
+        .data-table td:nth-child(4),
+        .data-table th:nth-child(5),
+        .data-table td:nth-child(5) {
+            text-align: right;
+        }
+        
+        .data-table th:nth-child(6),
+        .data-table td:nth-child(6),
+        .data-table th:nth-child(7),
+        .data-table td:nth-child(7) {
+            text-align: center;
         }
     </style>
 </head>

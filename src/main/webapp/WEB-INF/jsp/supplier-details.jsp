@@ -83,6 +83,35 @@
         .breadcrumb .current {
             color: #808080;
         }
+        
+        .table-container {
+            overflow-x: auto;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .data-table th,
+        .data-table td {
+            padding: 1rem;
+            text-align: left;
+        }
+        
+        .data-table th:nth-child(4),
+        .data-table td:nth-child(4),
+        .data-table th:nth-child(5),
+        .data-table td:nth-child(5) {
+            text-align: right;
+        }
+        
+        .data-table th:nth-child(6),
+        .data-table td:nth-child(6),
+        .data-table th:nth-child(7),
+        .data-table td:nth-child(7) {
+            text-align: center;
+        }
     </style>
 </head>
 <body>

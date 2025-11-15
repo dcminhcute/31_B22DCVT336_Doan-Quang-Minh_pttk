@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="<c:url value='/css/style.css'/>"/>
     <link rel="stylesheet" href="<c:url value='/css/module2.css'/>"/>
     <style>
-        /* Dark theme for order-details page */
         body {
             background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
         }
@@ -88,14 +87,12 @@
             color: #b0b0b0;
         }
         
-        /* Order header card text colors */
         .order-header-card .summary-item label,
         .order-header-card .summary-item span,
         .order-header-card .highlight {
             color: #ffffff !important;
         }
         
-        /* Remove badge background for status in red header */
         .order-header-card .status-badge {
             background: transparent !important;
             border: none !important;
